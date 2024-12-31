@@ -135,7 +135,7 @@ app.listen(PORT, () => {
     console.log(`app is running on ${PORT}`);
 });
 
-let dbURI = 'mongodb+srv://abc:abc@cluster0.xwbyne9.mongodb.net/ecommerceDatabase?retryWrites=true&w=majority';
+let dbURI = 'mongodb+srv://khansasajid639:DLHOJydgiakPgHmB@cluster0.aw8ph.mongodb.net/?retryWrites=true';
 mongoose.connect(dbURI);
 
 mongoose.connection.on('connected', function () {
